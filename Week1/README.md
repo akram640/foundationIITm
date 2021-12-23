@@ -5,3 +5,12 @@ Topic
 3. Variables and Literals
 
     Literals are actual value which are store inside a variable
+
+
+4. Data Types
+
+    data conversion
+
+    * a = int(10.209)
+
+    * same can be done for other data types
