@@ -14,3 +14,25 @@ Topic
     * a = int(10.209)
 
     * same can be done for other data types
+
+
+    * bool("") -> False
+
+    * bool("something") -> True
+
+
+5. Operators and Expressions 1
+
+    * We can always use the bracket for our own interest
+
+   
+6. Introduction to Strings
+
+    * Computer stores things as you tell it to do
+
+    * comparing string "za" < "zb" is True It compares char to char
+
+
+7. Variable
+
+

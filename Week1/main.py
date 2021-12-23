@@ -1,11 +1,7 @@
-a = int(10.290)
-print(a)
-b = int("10")
-print(b)
+ram_bank_balan = 1000000
+ram_loan = 5000000
 
-print(type(b))
-print(type(a))
+lakshaman_bank_balance = 20000000
+lakhsham_loan = 10000000
 
-c = str(10.209)
-print(type(c))
-print(c)
+net_income = ram
