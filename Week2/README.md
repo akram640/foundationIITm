@@ -8,6 +8,6 @@
     * If you need a book first you take it from a library and then 
     * Use it
 
-    * from calendar import *
+    * `from calendar import *`
 
         -> This means import everything from calendar library
