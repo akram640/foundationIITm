@@ -2,8 +2,9 @@
 
 2. For loop 
 
-    * for i in range(start, end,step):
-        print(i)
+    * `for i in range(start, end,step):`
+        
+        `print(i)`
 
     * it will go to end-1, and increment by step
 
