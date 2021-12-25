@@ -1,9 +1,4 @@
-print("When did India get its independence ? ")
-year = int(input())
+for x in range(9,-1,-1):
+    print(x)
 
-while(year != 1947):
-    print("You got this wrong. Enter once again.")
-    year = int(input())
-
-print("Wowwwwwwww... You got it right Hurrey")
 
