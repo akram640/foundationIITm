@@ -49,7 +49,27 @@
     * Just know one 
 
 
-5. 
+5. Nested for loop 
+
+
+6. break, continue and pass
+
+
+    * for i in range(10):
+        if(i == 5):
+            break
+
+
+    * for i in range(10):
+        if(i == 5):
+            continue
+
+    * for x in range(11):
+        if(x % 3 == 0):
+            print(x)
+        else:
+            pass
+
 
 
 
