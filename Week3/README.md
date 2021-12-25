@@ -14,35 +14,37 @@
 
 3. For Each loop
 
-    country = "India"
+    `country = "India"`
 
-    for letter in country:
-        print(letter)
+    `for letter in country:`
+        
+        `print(letter)`
 
 
 4. Formatted Printing
 
-    * for x in range(10):
-        print(x,end=" ")
+    * `for x in range(10):`
+        
+        `print(x,end=" ")`
 
 
-    * print("Today date is",d,m,y, sep='/')
+    * `print("Today date is",d,m,y, sep='/')`
 
     * default value of sep is " " (a space)
 
 
-    * print(f'{num} X {i} = {num * i}')
+    * `print(f'{num} X {i} = {num * i}')`
 
 
-    * print('{0} X {1} = {2}'.format(num,i,num*i))
+    * `print('{0} X {1} = {2}'.format(num,i,num*i))`
 
 
-    * print('%d X %d = %d' % (num,i,num*i))
+    * `print('%d X %d = %d' % (num,i,num*i))`
 
     
-    * pi = 22/7
+    * `pi = 22/7`
 
-    print(f'Value of PI = {pi:.2f}') # only 2 digit after dicimal point
+      `print(f'Value of PI = {pi:.2f}')` # only 2 digit after dicimal point
 
     * Just know one 
 
