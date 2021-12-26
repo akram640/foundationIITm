@@ -5,3 +5,9 @@
 3. Naive Search in a List
 
 4. The Obvious Sort
+
+5. The matrix Dot Product
+
+6. Matrix Addition
+
+7. Matrix Multiplication
