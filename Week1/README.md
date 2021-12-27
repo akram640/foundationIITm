@@ -36,3 +36,35 @@ Topic
 7. Variable
 
 
+    * Python is dynamically typed language
+    
+    a = 10 # here type is int
+    
+   
+    a = "new string" # here type is string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
