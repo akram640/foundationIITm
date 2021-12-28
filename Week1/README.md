@@ -4,21 +4,21 @@ Topic
 2. Variables and Input Statement
 3. Variables and Literals
 
-    Literals are actual value which are store inside a variable
+    **Literals are actual value which are store inside a variable**
 
 
 4. Data Types
 
     data conversion
 
-    * a = int(10.209)
+    * `a = int(10.209)`
 
     * same can be done for other data types
 
 
-    * bool("") -> False
+    * `bool("")` -> `False`
 
-    * bool("something") -> True
+    * `bool("something")` -> `True`
 
 
 5. Operators and Expressions 1
@@ -30,18 +30,18 @@ Topic
 
     * Computer stores things as you tell it to do
 
-    * comparing string "za" < "zb" is True It compares char to char
+    * comparing string `"za" < "zb"` is `True` It compares char to char
 
 
 7. Variable
 
 
-    * Python is dynamically typed language
+    * **Python is dynamically typed language**
     
-    a = 10 # here type is int
+    `a = 10 # here type is int`
     
    
-    a = "new string" # here type is string
+    `a = "new string" # here type is string`
 
 
 Resources 
