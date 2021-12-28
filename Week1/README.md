@@ -44,7 +44,9 @@ Topic
     a = "new string" # here type is string
 
 
+Resources 
 
+1. [Online Book](https://pypod.github.io/)
 
 
 
