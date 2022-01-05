@@ -1,2 +1,5 @@
-from calendar import month as m
-print(m(2021,10))
+a,b,c,d = input()
+print(a)
+print(b)
+print(c)
+print(d)
