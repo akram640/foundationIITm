@@ -60,3 +60,25 @@ class Student:
    anish.chem = 70
 
 ```
+
+## Inheritance
+
+1. Classes that are lower in the hierarchy inherit features or attributes from their ancestors.
+
+2. In Python, inheritance is an activity that requires some sort of effort from the part of the children.
+
+
+## Method Overriding
+
+
+
+
+
+
+
+
+
+
+
+
+
