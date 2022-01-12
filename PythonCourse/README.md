@@ -1,3 +1,3 @@
 ### Book and notes
 
-![Programming in Python](https://pypod.github.io/)
+[Programming in Python](https://pypod.github.io/)
