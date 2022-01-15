@@ -1,4 +1,9 @@
 # pythonIITfoundation
 
-# Changed file structure
+## Courses
+
+1. Maths 2
+
+2. Python 
+
 
