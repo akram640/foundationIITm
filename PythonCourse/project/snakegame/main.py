@@ -3,17 +3,21 @@ from pygame.locals import *
 import time
 
 
+SIZE = 40
+
 class Snake:
-    def __init__(self,parent_screen):
+    def __init__(self,parent_screen,length):
+        self.length = length
         self.parent_screen = parent_screen
         self.block = pygame.image.load("resources/block.jpg").convert()
-        self.x = 100
-        self.y = 100
+        self.x = [SIZE]*length
+        self.y = [SIZE]*length
         self.direction = 'down'
 
     def draw(self):
         self.parent_screen.fill((110,110,5))
-        self.parent_screen.blit(self.block,(self.x,self.y))
+        for i in range(self.length):
+            self.parent_screen.blit(self.block,(self.x[i],self.y[i]))
         pygame.display.flip()
 
     def move_left(self):
@@ -24,7 +28,7 @@ class Snake:
 
     def move_up(self):
         self.direction = "up"
-        
+
     def move_down(self):
         self.direction = "down"
 
@@ -45,7 +49,7 @@ class Game:
         pygame.init()
         self.surface = pygame.display.set_mode((700,700))
         self.surface.fill((110,110,5))
-        self.snake = Snake(self.surface)
+        self.snake = Snake(self.surface,2)
         self.snake.draw()
 
     def run(self):
