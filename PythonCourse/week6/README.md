@@ -23,4 +23,5 @@ d['rahul'] = 88.99
 
 print(d) # {'akram':98.98,'rahul':88.99}
 ```
+dictionary is ``{key:value}`` pairs
 
