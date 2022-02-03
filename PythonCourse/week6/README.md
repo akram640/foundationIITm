@@ -14,3 +14,13 @@ y = {1,2,1,2,34} # this is a set in Python
 
 ***
 
+## L6.2: Dictionaries
+
+```python
+d = {} # this is a dictionary
+d['akram'] = 98.98
+d['rahul'] = 88.99
+
+print(d) # {'akram':98.98,'rahul':88.99}
+```
+
