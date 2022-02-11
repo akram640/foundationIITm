@@ -25,3 +25,12 @@ print(d) # {'akram':98.98,'rahul':88.99}
 ```
 dictionary is ``{key:value}`` pairs
 
+## L6.3: Tuples
+
+```python
+t = (1,2,3,4,5)
+# A tuples is unchangle immutable
+# List is flexible and tuple is not flexible
+```
+* Tuple takes less space than list
+
