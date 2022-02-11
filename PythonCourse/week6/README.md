@@ -25,6 +25,8 @@ print(d) # {'akram':98.98,'rahul':88.99}
 ```
 dictionary is ``{key:value}`` pairs
 
+***
+
 ## L6.3: Tuples
 
 ```python
@@ -33,4 +35,39 @@ t = (1,2,3,4,5)
 # List is flexible and tuple is not flexible
 ```
 * Tuple takes less space than list
+
+***
+
+
+## L6.4: More on Lists
+
+```python
+l1 = [1,2,3]
+l2 = [10,20,30]
+l12 = l1 + l2 # This will add two list
+
+l = [0]*10 # l = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+l1 = [1,2,3]
+l2 = [1,2,3]
+print(l1==l2)
+```
+
+* Lists are compared one element at a t time
+
+```python
+l1 = [1,2,3]
+l2 = l1
+print(l1 is l2) # True
+l3 = list(l1)
+print(l1 is l3) # False
+
+```
+
+
+
+
+
+
+
 
