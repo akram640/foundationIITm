@@ -59,4 +59,4 @@ def Sort(L):
 
 ## L8.5: Introduction to Binary Search
 
-
+<img width="576" alt="image" src="https://user-images.githubusercontent.com/52348635/154893869-806e4594-cb0f-4fa1-82b3-a6d279447d80.png">
