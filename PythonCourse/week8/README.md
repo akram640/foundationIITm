@@ -57,7 +57,6 @@ def Sort(L):
 
 ***
 
-L8.5: Introduction to Binary Search
-
+## L8.5: Introduction to Binary Search
 
 
