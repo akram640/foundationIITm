@@ -63,4 +63,17 @@ def Sort(L):
 
 *** 
 
-## L8.6: 
+## L8.6: Warm up for Binary Search
+
+```python
+def obvious_search(L,k):
+    for x in L:
+        if x == k:
+            return True
+    return False
+```
+`import filename`.  This is how to use function from another file
+
+***
+
+## L8.7: 
