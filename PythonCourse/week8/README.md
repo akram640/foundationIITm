@@ -48,9 +48,16 @@ def check0(L):
 def Sort(L):
   '''recursively sort the list L'''
   if (L==[]):
-    return L
+      return L
    m = min(L)
    L.remove(m)
    return [m] + Sort(L)
 
 ```
+
+***
+
+L8.5: Introduction to Binary Search
+
+
+
