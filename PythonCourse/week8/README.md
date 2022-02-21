@@ -76,5 +76,26 @@ def obvious_search(L,k):
 
 ***
 
-## L8.7: 
+## L8.7: Binary Search Implementation
+
+```python
+def binary_search(L,k):
+    '''This function is an alternative for the obivous search.
+    It does exactly what is expected from the obivous search, but in an efficient way. This method is popularly colled the binary search.'''
+
+    b = 0 # index of first element in L
+    e = len(L)-1 # index of last element in L
+    
+    while(b < e):
+        m = (e-b)//2 + b # mid point of b and e
+        if L[m] == k: # if mid is equal to k we return m
+            return m
+        if L[m] < k : # if mid is less than k we serach in right side
+            b = m + 1
+        else:
+            e = m - 1 # else in left side
+
+    return -1
+
+```
 
