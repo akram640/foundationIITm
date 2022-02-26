@@ -17,3 +17,12 @@ How to handle files using Python ?
 
 ## L9.2: Reading and Writing to a File
 
+```python
+f=open('mytext.txt','w') # this will create a file mytext.txt in writing mode
+f.write('akram ') # This will write 'akram' to f
+f.write('IIT ')
+f.write('India ')
+f.write('Python ')
+f.close() # This close the f
+
+```
