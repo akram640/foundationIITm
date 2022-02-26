@@ -77,3 +77,14 @@ f.close()
 g.close()
 
 ```
+
+***
+
+## L9.6: File handling, Genetic Sequences
+
+ATGC 
+Knuth-Morris-Pratt (KMP)Algorithm
+
+***
+
+## L9.7: 
