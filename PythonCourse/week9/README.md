@@ -34,3 +34,9 @@ x.close()
 
 ***
 
+## L9.3: Big text file handling
+
+<img width="714" alt="image" src="https://user-images.githubusercontent.com/52348635/155842598-5b7afc0e-c4fd-4683-b7f6-907c9bf1cf64.png">
+
+***
+
