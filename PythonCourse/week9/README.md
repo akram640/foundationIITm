@@ -49,4 +49,31 @@ it will never get hang
 
 File handling is possible no matter how big the file is
 
+***
 
+## L9.5: Caesar Cipher
+
+```python
+import string
+
+def create_caesar_dictionary():
+  l=string.ascii_lowercase
+  l=list(l)
+  d={}
+  for i in range(len(l)):
+    d[l[i]]=l[(i+3)%26]
+  return d
+  
+d = create_caesar_dictionary()
+f=open('sherlock.txt','r')
+g=open('encrypted_sherlock.txt','w')
+
+c = f.read(1)
+while(c!=''):
+  g.write(d[c])
+  c = f.read(1)
+  
+f.close()
+g.close()
+
+```
