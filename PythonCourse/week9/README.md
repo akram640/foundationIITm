@@ -25,4 +25,9 @@ f.write('India ')
 f.write('Python ')
 f.close() # This close the f
 
+# Now opening the file in reading mode
+x=open('mytext.txt','r')
+s = x.read()
+x.close()
+
 ```
