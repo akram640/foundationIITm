@@ -40,3 +40,13 @@ x.close()
 
 ***
 
+## L9.4: Very big files - a tip
+A big file may not open (12GB of size)
+you can go line by line
+it will never get hang
+
+<img width="676" alt="image" src="https://user-images.githubusercontent.com/52348635/155842828-de0b265a-89b2-42ba-a8b2-29c463fc0b26.png">
+
+File handling is possible no matter how big the file is
+
+
