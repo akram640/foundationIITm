@@ -5,8 +5,11 @@
 
 
 
+
 ***
 
 ## L10.2: Classes and Objects
 
-
+* Classes is like blueprint
+* Real object are made from blueprint
+***
