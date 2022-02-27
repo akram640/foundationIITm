@@ -43,16 +43,22 @@ print(s2.roll_no,s2.name)
 
 ```python
 class Student:
+    count = 0 # This belong to class same for all object (class attributes)
     def __init__(self,roll_no,name):
         self.roll_no = roll_no
         self.name = name
+        Student.count += 1
 
     def display(self):
         print(self.roll_no,self.name)
 
-s0 = Student(0,'Bhuvanesh') #  constructor with parameter
+s0 = Student(0,'Bhuvanesh') # constructor
 s0.display()
-s1 = Student(1,'Harish') # constructor with parameter 
+s1 = Student(1,'Harish') #constructor
 s1.display()
+
+s3 = Student(3,'Akram')
+s3.display()
+print(Student.count)
 ```
 ***
