@@ -50,9 +50,9 @@ class Student:
     def display(self):
         print(self.roll_no,self.name)
 
-s0 = Student(0,'Bhuvanesh') # This is inbuilt constructor
+s0 = Student(0,'Bhuvanesh') #  constructor with parameter
 s0.display()
-s1 = Student(1,'Harish') # This is inbuilt constructor
+s1 = Student(1,'Harish') # constructor with parameter 
 s1.display()
 ```
 ***
