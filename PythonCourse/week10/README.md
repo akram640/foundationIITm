@@ -59,6 +59,8 @@ class Student:
         else:
             print("Fail")
 
+# __init__(), display(), result() are method
+
 s0 = Student(0,'Bhuvanesh',100) # constructor
 s0.display()
 s0.result()
