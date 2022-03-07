@@ -1,8 +1,3 @@
 a = int(input())
-b = int(input())
-
-try:
-    c = a/b
-    print(c)
-except:
-    print('Something went wrong')
+if a < 18:
+    raise Exception('You are underage, you can not vote')
