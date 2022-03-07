@@ -69,3 +69,15 @@ except:
     print('Something went wrong')
 ```
 
+Some exception python also does not know
+
+* User defined exception
+
+```python
+a = int(input())
+if a < 18:
+    raise Exception('You are underage, you can not vote')
+```
+
+***
+
