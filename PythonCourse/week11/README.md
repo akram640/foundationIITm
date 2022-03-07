@@ -29,3 +29,43 @@ try:
 except ZeroDivisionError:
     print('Invalid input, divisor can not be zero')
 ```
+This will handle all error at the same time (ZeroDivisionError,Variable not defined,FileNotFoundError)
+
+```python
+a = int(input())
+b = int(input())
+
+try:
+    c = a/b
+    print(c)
+    f = open('abc.txt','r')
+except ZeroDivisionError:
+    print('Invalid input, divisor can not be zero')
+
+except NameError:
+    print('Variable not defined')
+except FileNotFoundError:
+    print('Invalid file name. Please check again')
+```
+
+This will handle all types of errors (In Python there is 37 Exception)
+
+```python
+a = int(input())
+b = int(input())
+
+try:
+    c = a/b
+    print(c)
+    f = open('abc.txt','r')
+except ZeroDivisionError:
+    print('Invalid input, divisor can not be zero')
+
+except NameError:
+    print('Variable not defined')
+except FileNotFoundError:
+    print('Invalid file name. Please check again')
+except:
+    print('Something went wrong')
+```
+
