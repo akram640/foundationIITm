@@ -8,3 +8,12 @@
 ***
 
 ## L11.2: Exception handling
+
+```python
+a = int(input())
+b = int(input())
+
+c = a / b # It will fail when b as input is 0
+print(c)
+
+```
