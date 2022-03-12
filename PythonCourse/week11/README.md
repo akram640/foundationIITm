@@ -175,4 +175,24 @@ print(sub(10,20))
 print(mul(10,20))
 print(div(10,20))
 ```
+zip 
 
+```python
+fruits = ['mango','apple','banana','orange','guava']
+
+size = [4,1,0,2,3]
+
+print(dict(zip(fruits,size))) # {'mango': 4, 'apple': 1, 'banana': 0, 'orange': 2, 'guava': 3}
+```
+map
+
+```python
+a = [4,1,0,2,3]
+b = [5,2,9,2,9]
+
+def sub(x,y):
+    return x - y
+
+c = map(sub, a, b)
+print(list(c)) # output -> [-1, -1, -9, 0, -6]
+```
