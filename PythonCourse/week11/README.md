@@ -124,3 +124,37 @@ print(next(a),next(a))
 print(next(a),next(a))
 
 ```
+***
+
+## L11.4: Functional Programming (Part 2)
+
+```python
+a = 10
+b = 20
+if a < b:
+    small = a
+else:
+    small = b
+
+print(small)
+```
+Python way
+
+```python
+a = 10
+b = 20
+small = a if a < b else b
+```
+
+List comprehension
+```python
+fruits = ['mango','apple','banana','orange','guava']
+
+'''newList = []
+for fruit in fruits:
+    if 'n' in fruit:
+        newList.append(fruit.capitalize())
+'''
+newList = [fruit.capitalize() for fruit in fruits if 'n' in fruit]
+print(newList)
+```
