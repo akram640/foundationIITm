@@ -1,13 +1,7 @@
-def square(limit):
-    x = 0
-    while x < limit:
-        yield x * x
-        yield x * x * x
-        x += 1
+fruits = ['mango','apple','banana','orange','guava']
 
-a = square(5)
-print(next(a),next(a))
-print(next(a),next(a))
-print(next(a),next(a))
-print(next(a),next(a))
-print(next(a),next(a))
+newList = []
+for fruit in fruits:
+    if 'n' in fruit:
+        newList.append(fruit.capitalize())
+print(newList)
