@@ -83,5 +83,28 @@ if a < 18:
 
 ## L11.3: Functional Programming (Part 1)
 
- 
+Iterator
+
+```python
+fruits = ['mango','apple','banana','orange','guava']
+
+for fruit in fruits:
+    print(fruit)
+```
+Iterator
+
+```python
+fruits = ['mango','apple','banana','orange','guava']
+
+
+bascket = iter(fruits)
+
+print(bascket)
+
+print(next(bascket))
+print(next(bascket))
+print(next(bascket))
+print(next(bascket))
+
+```
 
