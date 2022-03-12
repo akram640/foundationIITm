@@ -158,3 +158,21 @@ for fruit in fruits:
 newList = [fruit.capitalize() for fruit in fruits if 'n' in fruit]
 print(newList)
 ```
+***
+
+## L11.5: Functional Programming (Part 3)
+
+Lambda function
+
+```python
+add = lambda x,y: x + y
+sub = lambda x,y: x - y
+mul = lambda x,y: x * y
+div = lambda x,y: x / y
+
+print(add(10,20))
+print(sub(10,20))
+print(mul(10,20))
+print(div(10,20))
+```
+
