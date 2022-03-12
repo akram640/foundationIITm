@@ -1,7 +1,8 @@
-fruits = ['mango','apple','banana','orange','guava']
+a = [4,1,0,2,3]
+b = [5,2,9,2,9]
 
-newList = []
-for fruit in fruits:
-    if 'n' in fruit:
-        newList.append(fruit.capitalize())
-print(newList)
+def sub(x,y):
+    return x - y
+
+c = map(sub, a, b)
+print(list(c))
