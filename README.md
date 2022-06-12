@@ -4,7 +4,7 @@
 
 ***
 
-#### Last Update  March 2022
+#### Last Update  June 2022
 
 - [x] Math 1
 - [x] Stats 1
