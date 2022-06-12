@@ -4,10 +4,18 @@
 
 ***
 
-#### Last Update 7 March 2022
+#### Last Update  March 2022
 
-1. Maths 2
+- [x] Math 1
+- [x] Stats 1
+- [x] English 1
+- [x] Computational Thinking
 
-2. Python 
+- [x] Python
+- [ ] Math 2
+- [ ] Stats 2
+- [ ] English 2
+
+
 
 
